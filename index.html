@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitii</title>
+</head>
+<body>
+    <h1>Retro</h1>
+    <img src="imagini/flower.jpg.webp" alt="Lalele" />
+
+    <!-- Tabele -->
+    <!-- rowspan - pentru celule; colspan - pentru coloane; border - bordarea -->
+    <p>Vrem sa introducem tabelul din imaginea urmatoare:</p>
+    <img src="imagini/Exemplu_tabel.jpg" alt="tabel-exercitiu"/>
+
+    <p>Rezultatul:</p>
+    <table border="2">
+        <tr>
+            <th rowspan="3">Celula 1</th>
+            <td colspan="2">Celula 2</td>
+        </tr>
+        <tr>
+            <td>Celula 4</td>
+            <td>Celula 6</td>
+        </tr>
+        <tr>
+            <td>Celula 7</td>
+            <td>Celula 9</td>
+        </tr>
+    </table>
+
+    <!-- Formulare -->
+    <p>Vrem sa definim urmatorul formular:</p>
+    <img src="imagini/formular.png" alt="formular-exercitii"/>
+    <p>Rezultatul:</p>
+    <h3>Personal details</h3>
+    <!-- Salutation -->
+    <label for="salutation">Solutation</label> <br />
+    <select id="salutation">
+         <option value="mr">Mr</option>
+         <option value="miss">Miss</option>
+         <option value="mrs">Mrs</option>
+    </select>
+    <br />
+    <!-- First and last name -->
+    <label for="f-name">First name: </label>
+    <input id="f-name" type="text" />
+    <br />
+    <!-- Last name -->
+    <label for="l-name">Last name: </label>
+    <input id="l-name" type="text" />
+    <br />
+    <!-- Gender -->
+    <label>Gender: </label>
+    <input type="radio" id="male" name="gender" />
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" />
+    <label for="female">Female</label>
+    <br />
+    <!-- Email -->
+    <label for="email">Email: </label>
+    <input type="email" id="email"/>
+    <br />
+    <!-- Date of birth-->
+    <label for="data">Date of birth: </label>
+    <input type="date" id="data-n"/>
+    <br />
+    <!-- Adress -->
+    <label for="adresa">Adresa: </label>
+    <br />
+    <textarea id="adresa" cols="60" rows="10"></textarea>
+    <br />
+    <!-- Submit button -->
+    <input type="button" value="Submit"/>
+    <button>Submit</button>
+</body>
+</html>
